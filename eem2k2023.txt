@@ -1,4 +1,4 @@
-@@@@@@@@ example1 @@@@@@@@@@
+w@@@@@@@@ example1 @@@@@@@@@@
 We can create a EEM applet to watch for the syslog message that loopback0 has been shutdown,
  and automagicly bring it back up!
 
@@ -68,7 +68,7 @@ config t
 no event manager applet siraloop
 event manager applet siraloop
  event none
- action 1.0 puts "How many Loopback interfaces do you wish to create?"
+ action 1.0 puts "How many Loopback interfaces do you wish to remove?"
  action 1.1 puts nonewline "> "
  action 1.2 gets num 
  action 2.0 cli command "enable"
